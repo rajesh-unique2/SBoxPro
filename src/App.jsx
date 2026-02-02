@@ -55,7 +55,7 @@ const App = () => {
             <> 
               <Navbar color='bg-blue-50'/>
               <FirstSection />   
-               <div className="sticky top-0 z-10000"><Navbar color='bg-gray-50'/></div> 
+               <div className="sticky top-0 z-1000"><Navbar color='bg-gray-50'/></div> 
               <SecondSection />
               <ThirdSection />
               <FourthSection />

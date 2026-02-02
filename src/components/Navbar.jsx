@@ -77,7 +77,7 @@ const Navbar = (props) => {
               box-border fixed inset-y-0 right-0 flex justify-center gap-5 flex-col 
               bg-[#1E2228] z-50 text-white scroll-smooth`}
 > */}
-  <div className={`fixed left-full w-75 pl-8 py-10 h-full z-50 inset ${Info ? 'translate-x-0' : '-translate-x-full box-border'} duration-200 text-white scroll-smooth bg-[#1E2228]` }>
+  <div className={`fixed left-full w-75 pl-8 py-10 h-full z-10000 top-0 overflow-y-scroll inset ${Info ? 'translate-x-0' : '-translate-x-full box-border'} duration-200 text-white scroll-smooth bg-[#1E2228]` }>
   <div className="text-[32px] font-semibold flex justify-between items-center text-white">
     <p>Sandbox</p>
     <FontAwesomeIcon
@@ -178,7 +178,7 @@ const Navbar = (props) => {
           <div
             className={`overflow-y-scroll duration-500 w-75 box-border h-sm ${
               Navbar ? "translate-x-0" : "-translate-x-full"
-            } box-border fixed inset-0 left-0 top-0 flex justify-between flex-col bg-[#1E2228] z-50 scroll-0 text-white scroll-smooth`}
+            } box-border fixed inset-0 left-0 top-0 flex justify-between flex-col bg-[#1E2228] z-10000 scroll-0 text-white scroll-smooth`}
           >
             <div className="w-75 h-screen px-8 py-10 flex flex-col justify-start gap-10">
               <div className="text-[33px] font-semibold flex justify-between items-center">

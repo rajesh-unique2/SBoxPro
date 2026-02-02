@@ -7,6 +7,7 @@ import FollowIcons from "./FollowIcons";
 import logo from "../Images/logo.png";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
+import logo from '../Images/logo.jpg'
 
 
 const Navbar = (props) => {
@@ -149,7 +150,7 @@ const Navbar = (props) => {
         <nav className="flex w-full bg-blue-50 px-3.5 py-5 justify-between items-center box-border">
           <div>
             <img
-              src={"https://sandbox.elemisthemes.com/assets/img/logo@2x.png"}
+              src={logo}
               alt=""
               className="w-37"
             />

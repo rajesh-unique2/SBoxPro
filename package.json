@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 {
   "name": "sandboxdemo",
   "private": true,
@@ -78,4 +78,4 @@
     "vite": "^7.1.7"
   }
 }
->>>>>>> 5a3b98344af1ab7b249d358fb2ea493cbee01ece
+

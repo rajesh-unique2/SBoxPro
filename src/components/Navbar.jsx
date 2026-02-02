@@ -7,7 +7,7 @@ import FollowIcons from "./FollowIcons";
 import logo from "../Images/logo.png";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
-import logo from '../Images/logo.jpg'
+
 
 
 const Navbar = (props) => {

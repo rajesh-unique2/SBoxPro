@@ -9,7 +9,7 @@ import typesomething from '../Images/typesomething.jpg'
 
 const FastTransaction = () => {
   return (
-    <div className='h-screen w-screen flex flex-col-reverse lg:flex-row items-center justify-center gap-10 md:gap-25 lg:gap-10 px-5 md:px-10 py-15 bg-gray-100 box-border overflow-x-hidden'>
+    <div className='flex flex-col-reverse lg:flex-row items-center justify-center gap-10 md:gap-25 lg:gap-10 px-5 md:px-10 py-15 bg-gray-100 box-border overflow-x-hidden'>
         <div className="h-full flex-1 text-wrap text-black lg:px-10">
         <h2 className="font-semibold text-black text-2xl mb-5">Fast Transactions</h2>
         <p className="font-sans text-lg text-slate-600">

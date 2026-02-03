@@ -9,7 +9,7 @@ import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 const SecurePayments = () => {
   return (
     <div className="flex flex-col p-5 bg-slate-100 lg:flex-row lg:p-20 lg:gap-15 lg:font-[sans-serif]">
-      <div className="grid grid-cols-2 gap-8 lg:flex-1">
+      <div className="grid grid-cols-2 gap-5 lg:flex-1">
         <div className="flex justify-start items-end flex-col  gap-5">
             <img className="rounded-lg" src={card} alt="" />
             <img className="rounded-lg w-[80%]" src={text} alt="" />  

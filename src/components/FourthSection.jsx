@@ -101,7 +101,7 @@ const FourthSection = () => {
         })
     }
       </div>
-      <div className="flex lg:flex-row flex-col p-5 lg:justify-center lg:items-center lg:gap-15 w-screen h-screen lg:mt-20">
+      <div className="flex lg:flex-row flex-col p-5 lg:justify-center lg:items-center lg:gap-15 w-screen lg:mt-20">
         <div className="h-150 md:w-130 lg:h-100 lg:w-120 bg-blue-100 rounded-lg relative" onClick={()=>{ navigate('/videopage')}}> 
          <img src={videothumbnail} alt="" className="absolute lg:bottom-10 lg:right-10 lg:w-[75rem] h-auto rounded-2xl md:w-full md:h-full"/>
          <FontAwesomeIcon icon={faCirclePlay} className="text-blue-500  absolute top-1/2 left-1/2 md:-translate-x-2/2 md:-translate-y-3/2 -translate-x-1/2 -translate-y-1/2 object-cover rounded-full text-7xl opacity-90 hover:opacity-100 cursor-pointer"/>

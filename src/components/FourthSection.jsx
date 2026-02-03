@@ -75,7 +75,7 @@ const FourthSection = () => {
     }
   ]);
   return (
-    <div className="lg:w-screen py-15  lg:mt-30 box-border opacity-100 font-sans md:py-30 lg:px-5 lg:p-0">
+    <div className="lg:w-screen py-15 lg:mt-30 box-border opacity-100 font-sans md:py-30 lg:px-5 lg:p-0">
       <div className="flex items-center justify-center flex-col lg:gap-10 gap-3 bg-white wrap-break-word">
         <div className="text-center text-slate-400 uppercase tracking-wider font-bold ">
           Happy Customers

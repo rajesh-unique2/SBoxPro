@@ -64,7 +64,7 @@ const FifthSection = () => {
           <label htmlFor="toggle" className='bg-slate-200 w-12 h-7 inline-block rounded-full relative'><span className={`absolute h-5 w-5 rounded-full left-1 top-1 bg-blue-600 duration-200 ${isOn?'translate-x-5':''}`}></span></label>
         </div>Yearly <span className='text-red-500'>(Save 30%)</span>
     </div>
-      <div className='w-full lg:h-screen flex flex-wrap lg:flex-row justify-around items-center gap-5 mt-5 lg:m-0'>
+      <div className='w-full flex flex-wrap lg:flex-row justify-around items-center gap-5 mt-5 lg:m-0'>
       {datas.map((data,id)=>{
         
         return (
